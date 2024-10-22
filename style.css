@@ -98,7 +98,6 @@ p{
 .box2{
     display: flex;
     gap: 30px;
-    justify-content: space-between;
 }
 .box2-text{
     width: 45vw;
@@ -112,12 +111,12 @@ p{
 }
 .box2-image{
     position: relative;
+    background-color: black;
 }
 .box2-image img{
     width: 470px;
     object-fit: cover;
     position: absolute;
-    right: 50%;  
     bottom: 0;
 } 
 .box3{
@@ -190,6 +189,10 @@ p{
     align-items: center;
     padding: 50px 0px;
     border-bottom: 1px solid black;
+}
+.footer-box2{
+    display: flex;
+    justify-content: space-between;
 }
 .icons ul{
     list-style: none;
